@@ -1,0 +1,150 @@
+body{
+    height: 700px;
+    background-image: linear-gradient(to top, #e0f148, #36e9e9);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 100pxl;
+}
+
+.image {
+    width: 100%;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.add-cart-cart1,
+.add-cart-cart2,
+.add-cart-cart3 {
+    position: static;
+    width: 100%;
+    background-color: rgb(176, 241, 133);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image:hover .add-cart-cart1,
+.image:hover .add-cart-cart2,
+.image:hover .add-cart-cart3 {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/* Cart  */
+.products-container {
+    max-width: 70%;
+    justify-content: space-around;
+    margin: 50px auto;
+    /* margin-top: 50px; */
+    /* background-color: aqua; */
+    font-size: 25px;
+    padding-top: 1px;
+}
+td{
+    /* border: 3px solid black;     */
+    padding: 10px;
+    width: 80%;
+    /* color: blue; */
+}
+.products-container ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    /* max-width:100%; */
+}
+
+.product-header {
+    width: 100%;
+    max-width:100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 30px auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    /* border-bottom: 1px solid lightgrey; */
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgrey;
+    /* display: flex; */    
+    align-items: center;
+}
+
+.product {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.BasketTotalConatainer {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.BasketTotalTitle {
+    width: 30%;
+}
+
+.BasketTotal {
+    width: 10%;
+}
+.total{
+    border: 2px solid white;
+    
+}
+/*------navbar------*/
+.navbar-brand:hover{
+    border: 1.5px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    border: 1.5px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*-----cart-----------*/
+
+#price{
+    /* margin-left: 20px; */
+}
+.clrbtn{
+    margin-left: 100px;
+    border: 2px black;
+    color: chartreuse;
+}
